@@ -1,4 +1,4 @@
-export function inputPhone(phone) {
+function inputPhone(phone) {
   phone = phone.replace(/\D/g, '');
   phone = phone.replace(/(\d{2})/, '($1) ');
 
